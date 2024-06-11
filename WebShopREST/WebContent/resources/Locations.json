@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "latitude": 45.24602756801451,
+    "longitude": 19.837445536754345,
+    "address": "Lasla Gala 28, Novi Sad City, 21102"
+  },
+  {
+    "id": 1,
+    "latitude": 45.239887168800834,
+    "longitude": 19.837661197199097,
+    "address": "Narodnog fronta 21a, Novi Sad City, 21102"
+  },
+  {
+    "id": 2,
+    "latitude": 45.26595482166857,
+    "longitude": 19.836097047090547,
+    "address": "Kisacka 64, Novi Sad City, 21000"
+  },
+  {
+    "id": 3,
+    "latitude": 45.24707222756177,
+    "longitude": 19.83586235011693,
+    "address": "Danila Kisa 34, Novi Sad City, 21102"
+  },
+  {
+    "id": 4,
+    "latitude": 44.8106532060244,
+    "longitude": 20.461256257681946,
+    "address": "Kraljice Natalije 31, Belgrade, 11000"
+  }
+]

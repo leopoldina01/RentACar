@@ -1,0 +1,1648 @@
+/* Stilizacija headera */
+header {
+  background-image: linear-gradient(to left, #5567af, #0e1c2e);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-buttons {
+  display: flex;
+}
+
+.nav-buttons button {
+  margin-left: 10px;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-buttons button:hover {
+  background-color: #001238;
+  color: white;
+}
+
+.search-input-container-orders {
+	display: flex;
+	margin-top: 60px; 
+    margin-left: 10px;  
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+.search-input-container-orders label {
+	margin-top: 10px;
+}
+
+.search-input-container-orders button {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-input-container-orders input {
+  margin-right: 10px;
+  color: black;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.search-input-container-orders button:hover {
+	background-color: #001238;
+    color: white;
+}
+
+.search-input-container {
+	display: strech;
+	margin-top: 80px; 
+    margin-left: 450px;  
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+.search-input-container button {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-input-container input {
+  margin-right: 10px;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.search-input-container button:hover {
+	background-color: #001238;
+    color: white;
+}
+
+/* Stilizacija DataGrid liste */
+.datagrid {
+  margin-top: 0px; 
+  margin-left: 300px;  
+  margin-bottom: 40px;
+  margin-right: 100px;
+  border-collapse: collapse;
+  width: 90%;
+  background-color: white;
+}
+
+.datagrid th,
+.datagrid td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.datagrid th {
+  background-color: #001238;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.datagrid td {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Stilizacija pozadine stranice */
+body {
+  background-color: #a9a9a9a9;
+  margin: 0;
+}
+
+.table-container {
+  margin-left: 25px;
+  margin-right: 0px;
+}
+
+.signUpBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="password"],
+.signup-form input[type="date"] {
+  width: 95%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-form select option {
+  background-color: white;
+}
+
+.signup-form select option:checked,
+.signup-form select option:hover {
+  box-shadow: 0 0 10px 100px #1882A8 inset;
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #7a8edd;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #001238;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.hidden {
+  display: none;
+}
+
+.profile-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.profile-info label {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#formDiv div {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#formDiv div label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#formDiv div input,
+#formDiv div select {
+  width: 92%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#formDiv div button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#formDiv div button:hover {
+  background-color: #001238;
+  color: white;
+}
+
+#formDiv div select {
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Dodata linija */
+}
+
+.button-container button {
+  margin-left: 20px;
+}
+
+/* Dodat kod za log-in formu */
+.login-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #7a8edd;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #001238;
+}
+
+.button-container {
+  display: inline-block;
+  justify-content: flex-end;
+  position: fixed;
+  right: 0;
+  margin: 10px;
+}
+
+.button-container button {
+  margin-left: 10px;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block
+}
+
+.create-manager-button {
+  margin-left: 10px;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-manager-button:hover {
+  background-color: #001238;
+  color: white;
+}
+
+/* Dodatak za stilizaciju Search containera */
+
+/* Stilizacija input polja */
+.search-container input[type="text"],
+.search-container input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Stilizacija ComboBox-a */
+.search-container select {
+  width: 200px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter-container select {
+  width: 200px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+  
+  /* Stilizacija dugmeta */
+.search-container button {
+  padding: 8px 12px;
+  font-size: 16px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+.search-container button:hover {
+  background-color: #001238;
+  color: white;
+}
+
+.filter-container button:hover{
+  background-color: #001238;
+  color: white;
+}
+
+.filter-container button {
+  padding: 8px 12px;
+  font-size: 16px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.filter-container-buttons button{
+  width: 70%;
+}
+
+  /* Razmaci */
+.search-container {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: 450px;
+  margin-right: 400px;
+}
+
+.filter-container{
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid #1b395b;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  align-items: center;
+  flex-direction: column;
+  width: 15%;
+  position: fixed;
+  left: 50px;
+  top: 120px;
+}
+
+  /* Postavka elemenata iznad tabele */
+.search-container {
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+  
+.search-container input[type="text"],
+.search-container select,
+.search-container input[type="number"],
+.filter-container select {
+  margin-right: 10px;
+}
+  
+.search-container button,
+.filter-container button {
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.table-container {
+  padding-left: 125px;
+  margin-right: 500px;
+}
+
+.table-container tr:hover {
+  background-color: #7a8edd;
+  color: white;
+  cursor: pointer;
+}
+
+
+.managerStoreContainer {
+	margin-top: 20px;
+	display: flex;
+    margin-left: 45px;
+    width: 800px;
+    height: 200px;
+    padding: 10px;
+}
+
+.image {
+    flex: 1;
+    height: 100%;
+    width: 200px;
+}
+
+.image img {
+    height: 100%;
+    width: 180px;
+    object-fit: cover;
+}
+
+.RentACarStoreText {
+	flex: 3;
+    padding-left: 5px;
+    align-items: flex-start;
+}
+
+.RentACarStoreText p {
+	margin: 0;
+    line-height: 0.5;
+}
+
+.RentACarStoreText h2 {
+  margin-bottom: 0;
+}
+
+.list-box {
+	border-radius: 10px;
+	border: 3px solid #1b395b;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: white;
+    padding: 10px;
+    margin-left: 50px;  
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+.list-box-narudzbine {
+  max-width: 1100px;
+  padding: 10px;
+  margin-left: 50px;  
+  margin-bottom: 40px;
+  margin-right: 100px;
+  width: 90%;
+  border-radius: 10px;
+  border: 3px solid #1b395b;
+  background-color: white;
+}
+
+.nesto-bezveze {
+  align-items: center;
+  width: 85.7%;
+  position: absolute;
+  top: 80%;
+  right: 6%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.card {
+  display: inline-block;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0.2, 0.2, 0.2, 0.2);
+  border-radius: 10px;
+}
+
+.card-image {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.card-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card-text {
+  flex: 1;
+}
+
+.card-text h3 {
+  margin: 0;
+}
+
+.card-text p {
+  margin: 0;
+  color: #888888;
+}
+
+.orderItem {
+	display: grid;
+	width: 900px;
+    grid-template-columns: 1fr auto;
+    align-items: left;
+    text-align: left;
+    cursor: pointer;
+}
+
+.orderItem p {
+	margin-right: 20px;
+	
+}
+
+.orderItem:hover {
+	color: #51697a;
+}
+
+.ordered-in {
+  grid-column: 2;
+  margin-top: 10px;
+  align-items: flex-end;
+}
+
+.ordered-in-label {
+  margin-right: 10px;
+}
+
+.ordered-in img {
+	flex: 1;
+    height: 90%;
+    width: 300px;
+}
+
+.customerOrders {
+	margin-left: 50px;
+}
+
+.vehicle-details {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.vehicle-list {
+  display: flex;
+  flex-basis: calc(50% - 10px);
+  align-items: center;
+  margin-bottom: 10px;
+  box-shadow: 4px 2px 4px rgba(0.2, 0.2, 0.2, 0.2);
+  border: black;
+}
+
+.vehicle-image {
+  margin-right: 10px;
+  width: 200px;
+  height: 100%;
+}
+
+.single-vehicle-details {
+  flex-grow: 1;
+  display: grid;
+}
+
+.vehicle-brand {
+  font-weight: bold;
+  margin-bottom: 0px;
+  grid-template-columns: 1fr auto;
+}
+
+.vehicle-model {
+  color: #888;
+  margin-top: 0px;
+  grid-template-columns: 1fr auto;
+}
+
+.vehicle-price {
+  margin-top: 5px;
+  grid-template-columns: 1fr auto;
+}
+
+.vehicle-extra-details {
+  display: flex;
+  color: #888;
+}
+
+.vehicle-extra-details p {
+	grid-column: 2;
+  margin-right: 10px;
+}
+
+.managerStoreVehiclesHeader {
+	margin-left: 50px;
+	cursor: pointer;
+	
+}
+
+.managerStoreVehicelsHeader h2 {
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 600;
+	background-image: linear-gradient(to left, #20477b, #000000);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.managerStoreVehiclesHeader:hover {
+	color: #51697a;
+}
+
+.cardCustomers {
+	padding: 10px;
+	border-radius: 10px;
+	border: 3px solid #1b395b;
+	display: flex;
+	flex-direction: column;
+}
+
+.selected-store-headline{
+  font-size: 40px;
+}
+
+.selected-store-slogan {
+  font-size: 70px;
+  position: absolute;
+  left: 30%;
+  top: 9%;
+}
+
+.selected-store-slogan {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #5567af, #0e1c2e);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  position: absolute;
+  left: 30%;
+  top: 9%;
+}
+
+.selected-store-logo{
+  position: absolute;
+  max-width: 35%;
+  max-height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.radno-vreme-i-status{
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid #1b395b;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  align-items: center;
+  flex-direction: column;
+  width: 18%;
+  position: absolute;
+  top: 30%;
+  left: 6%;
+  background-image: linear-gradient(to left, #5567af, #0e1c2e);
+}
+
+.radno-vreme-i-status label{
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.selected-store-location-container{
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid #1b395b;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  align-items: center;
+  flex-direction: column;
+  width: 18%;
+  position: absolute;
+  top: 30%;
+  right: 6%;
+  background-image: linear-gradient(to left, #5567af, #0e1c2e);
+}
+
+.selected-store-location-container label{
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.selected-store-comment-container {
+  position: absolute;
+  top: 7%;
+  right: 0.5%;
+}
+
+.selected-store-comment-container button{
+  padding: 8px 12px;
+  font-size: 16px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.selected-store-comment-container button:hover {
+  background-image: linear-gradient(to left, #5567af, #0e1c2e);
+  color: white;
+}
+
+.selected-store-headline{
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #20477b, #000000);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  position: absolute;
+  top: 3%;
+}
+
+.separator {
+  margin-top: 75px;
+}
+
+.selected-store-vehicles-container{
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid #1b395b;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 85.7%;
+  position: absolute;
+  top: 80%;
+  right: 6%;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.vehicles-h3{
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #20477b, #000000);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  position: absolute;
+  top: 68%;
+  left: 6%;
+}
+
+
+.login-label { 
+	color: red;
+}
+
+.sort-orders-select {
+	width: 200px;
+  padding: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.sort-orders-select option:hover {
+	cursor: pointer;
+}
+
+.applyButton {
+	margin-right: 10px;
+}
+
+.signup-form2{
+  position: absolute;
+  top: 50px;
+  left: 40%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid #1b395b;
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 15%;
+  flex-direction: column;
+  width: 15%;
+}
+
+.signup-form2 input {
+  margin-right: 10px;
+  color: black;
+  width: 200px;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.signup-form2 select{
+  width: 226px;
+  margin-top: 10px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.signup-form2 button{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.applyButton:hover {
+	background-color: #001238;
+    color: white;
+}
+
+.sort-customer-orders {
+	margin-top: 20px;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.signup-form2 button:hover{
+  background-color: #1b395b;
+  color: white;
+}
+
+.heder-za-radnju {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #20477b, #000000);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+
+.newstore-container{
+  position: absolute;
+  top: 50px;
+  left: 20%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid #1b395b;
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 15%;
+  flex-direction: column;
+  width: 15%;
+}
+
+.newstore-headline{
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #20477b, #000000);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.newstore-container input{
+  margin-right: 10px;
+  color: black;
+  width: 200px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.newstore-container button{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.newstore-container select{
+  width: 226px;
+  margin-top: 10px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.newstore-container button:hover:enabled{
+  background-color: #1b395b;
+  color: white;
+}
+
+.newstore-container button:hover:disabled{
+	opacity: 100%;
+	color: grey;
+}
+
+
+.newstore-container label{
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 8px;
+  
+}
+
+.create-vehicle-container {
+  width: 320px;
+  position: absolute;
+  left: 42%;
+  top: 10%;
+  border: 2px solid #1b395b;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.create-vehicle-container input {
+  width: calc(80% - 10px);
+  margin-left: auto;
+  margin-right: auto;
+  
+  color: black;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.create-vehicle-container select{
+	width: calc(89% - 10px);
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.create-vehicle-h2{
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #20477b, #000000);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.create-vehicle-container button{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  width: 82%;
+  margin-top: 10px;
+}
+
+.create-vehicle-container button:hover{
+  background-color: #1b395b;
+  color: white;
+}
+
+.create-vehicle-container label{
+	font-weight: bold;
+	margin-right: 100px;
+}
+
+/****************************/
+
+.selected-store-vehicles-container {
+  border-radius: 10px;
+  border: 3px solid #1b395b;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 85.7%;
+  position: absolute;
+  top: 80%;
+  right: 6%;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+
+.show-vehicle-list {
+  margin-top: 20px;
+  border-radius: 15px;
+  border: 2px solid #ccc;
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  position: relative;
+}
+
+.vehicle-image-wrapper {
+  width: 200px;
+  height: 100%;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.show-vehicle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.vehicle-details {
+  width: calc(100% - 220px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.vehicle-info-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.show-vehicle-brand,
+.show-vehicle-model {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.show-vehicle-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.show-vehicle-status {
+  position: relative;
+  bottom: 80px;
+  left: 460px;
+  font-style: italic;
+}
+
+.show-vehicle-fuel{
+  position: relative;
+  bottom: 60px;
+  left: 430px;
+  font-style: italic;
+}
+
+.vehicle-details label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.vehicle-bottom-details {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-self: flex-end;
+  align-items: flex-end;
+}
+
+.vehicle-bottom-details label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  white-space: nowrap;
+  color: #888888;
+}
+
+/*   IZMENA I BRISANJE VEHICLE  */
+
+.obrisi-vehicle-button{
+  width: 15%;
+  height: 25px;
+  position: relative;
+  left: 530px;
+  bottom: 80px;
+  color: black;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.izmeni-vehicle-button{
+  width: 15%;
+  height: 25px;
+  position: relative;
+  left: 530px;
+  bottom: 85px;
+  color: black;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.obrisi-vehicle-button:hover{
+  background-color: #1b395b;
+  color: white;
+}
+
+.izmeni-vehicle-button:hover{
+  background-color: #1b395b;
+  color: white;
+}
+
+.allusers-block-button{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.all-vehicles-for-renting {
+  border-radius: 10px;
+  border: 3px solid #1b395b;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+  right: 6%;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.show-vehicle-list-order {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  position: relative;
+}
+
+.show-vehicle-list-order:hover {
+	color: #51697a;
+}
+
+.search-input-container-orders-create {
+	display: flex;
+	margin-top: 60px; 
+    margin-left: 10px;  
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+.search-input-container-orders-create button {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+}
+
+.search-input-container-orders-create label {
+	margin-top: 10px;
+}
+
+.search-input-container-orders-create input {
+  margin-right: 10px;
+  height: 24px;
+  color: black;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.search-input-container-orders-create button:hover {
+	background-color: #001238;
+    color: white;
+}
+
+.add-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 8px 12px;
+  background-color: #7a8edd;
+  border: none;
+  border-radius: 10%;
+}
+
+.add-button:hover {
+  background-color: #001238;
+  color: white;
+  cursor: pointer;
+}
+
+.shopping-cart-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.shopping-cart-container label {
+	margin-top: 10px;
+	margin-right: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.shopping-cart-button {
+  margin-right: 10px;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.shopping-cart-button:hover {
+  background-color: #001238;
+  color: white;
+  cursor: pointer;
+}
+
+.shopping-cart-details {
+	margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.shopping-cart-details label {
+	margin-top: 10px;
+	margin-right: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.shopping-cart-details button {
+	margin-right: 10px;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.shopping-cart-details button:hover {
+	background-color: #001238;
+  color: white;
+}
+
+.order-error-label-container {
+	margin-top: 10px;
+	margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.requiredDatesForOrder {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cancel-order-button {
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #7a8edd;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10%;
+  height: 35px;
+}
+
+.cancel-order-button:hover {
+  background-color: #001238;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 300px
+}
+
+.modal textarea {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.taken {
+    color: red;
+}
+
+.block-button {
+	border-radius: 4px;
+	width: 80px;
+	height: 30px;
+	font-size: 16px;
+}
+
+.block-button:hover {
+	cursor: pointer;
+	background-color: #001238;
+    color: white;
+}
+
+.is-blocked-label {
+	color: red;
+}
+
+.suspicious-h2 {
+	margin-left: 447px;
+  font-size: 40px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #5567af, #0e1c2e);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  left: 30%;
+  top: 9%;
+}
+
+.map {
+    width: 100%;
+    height: 300px; /* Prilagodite visinu prema potrebama */
+}
+
+.rate-store-button{
+  position: relative;
+  width: 13%;
+  bottom: 100%;
+  left: 0%;
+  padding: 5px 10px;
+  background-color: #7a8edd;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10%;
+  height: 35px;
+}
+
+.rate-store-button:hover{
+  cursor: pointer;
+	background-color: #001238;
+  color: white;
+}
+
+
+.modal-overlay input{
+  margin-bottom: 10px;
+  color: black;
+  width: 90%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+
+.approve-comment:hover{
+  cursor: pointer;
+	background-color: #001238;
+  color: white;
+}
+
+.approve-comment{
+  position: relative;
+  left: 0%;
+  padding: 5px 10px;
+  background-color: #7a8edd;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10%;
+  height: 35px;
+}
+
+.reject-comment:hover{
+  cursor: pointer;
+	background-color: #001238;
+  color: white;
+}
+
+.reject-comment{
+  position: relative;
+  left: 0%;
+  padding: 5px 10px;
+  background-color: #7a8edd;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10%;
+  height: 35px;
+}
+
+.single-comment-container{
+  border: 1px #7a8edd solid;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+
+
+.single-comment-container h3{
+  margin-left: 10%;
+}
+
+/*.single-comment-container textarea{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}*/
+
+.modal-overlay2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal2 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.modal2 textarea {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100px;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+
+.modal2 label{
+  margin-left: 10%;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.comment-buttons-container{
+  position: relative;
+  left: 75%;
+  bottom: 40px;
+  margin-bottom: 10px;
+}
+
+.close-modal-button{
+  position: absolute;
+  left: 74%;
+  bottom: 90%;
+}
+
+.mapCreateStore {
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 500px;
+	height: 300px;
+}

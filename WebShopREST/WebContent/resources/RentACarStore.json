@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "name": "PREMIUM CAR",
+    "offeredVehicles": [
+      0,
+      1
+    ],
+    "workingTime": "08:00 - 16:00",
+    "workingStatus": "CLOSED",
+    "location": {
+      "id": 0,
+      "longitude": 19.837445536754345,
+      "latitude": 45.24602756801451,
+      "address": "Lasla Gala 28, Novi Sad City, 21102"
+    },
+    "locationId": 0,
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/46223_luxury-matters__w660__.jpg",
+    "rating": 0.0
+  },
+  {
+    "id": 2,
+    "name": "FASTEX DOO",
+    "offeredVehicles": [
+      2,
+      3
+    ],
+    "workingTime": "10:00 - 22:00",
+    "workingStatus": "CLOSED",
+    "location": {
+      "id": 1,
+      "longitude": 19.837661197199097,
+      "latitude": 45.239887168800834,
+      "address": "Narodnog fronta 21a, Novi Sad City, 21102"
+    },
+    "locationId": 1,
+    "logoUrl": "https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/819061b6-7d77-4e3b-96af-1075fb2de5cb/Bugatti%20Chiron%20Super%20Sport%20300%2B.jpeg?width\u003d800\u0026fm\u003djpg\u0026auto\u003dformat",
+    "rating": 5.0
+  },
+  {
+    "id": 3,
+    "name": "BEN \u0026 JERRY\u0027S",
+    "offeredVehicles": [
+      4,
+      5
+    ],
+    "workingTime": "09:00 - 23:00",
+    "workingStatus": "CLOSED",
+    "location": {
+      "id": 2,
+      "longitude": 19.836097047090547,
+      "latitude": 45.26595482166857,
+      "address": "Kisacka 64, Novi Sad City, 21000"
+    },
+    "locationId": 2,
+    "logoUrl": "https://t4.ftcdn.net/jpg/05/61/58/59/360_F_561585983_UWPqwzAXHWa3XJBlcgWbqAxG2TKzazUW.jpg",
+    "rating": 0.0
+  },
+  {
+    "id": 4,
+    "name": "MEXICANS",
+    "offeredVehicles": [
+      6
+    ],
+    "workingTime": "07:00 - 15:00",
+    "workingStatus": "CLOSED",
+    "location": {
+      "id": 3,
+      "longitude": 19.83586235011693,
+      "latitude": 45.24707222756177,
+      "address": "Danila Kisa 34, Novi Sad City, 21102"
+    },
+    "locationId": 3,
+    "logoUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRUWFhUZGBgaGBgZGBkaHBwYGBUYGBgaGRgYGhgcIS4lHB4rHxgaJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQrJCs0NDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAKgBLAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAADAAECBAUGB//EAEIQAAEDAQUFBAgFAwMCBwAAAAEAAhEDBBIhMVEFQWFxkQYTgaEUIjJSscHR8BVCYpLhcoLSosLxByQWM0NTVGOD/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QAJBEAAgIBBAIDAAMAAAAAAAAAAAECERIDEyExQVEEFGEiQpH/2gAMAwEAAhEDEQA/AOPIemvOC0gwqRpA5hVZtRQZaiEQWpWfRGJnWBu4pWh0AFoUhVBTO2edxUHWF4RaFTCOulCewKJs7xuKYtcMwUWOiDmKBpouOicMJRYUViCkHlXBZnHcl6I7RLIMWVhWKcV0Q2R2iibMdEZIMWIWlSFpKGaBUDTKMgxZY9IOqk2sVUulKCnaFTLTqpUC4oIlPeKLQUwklS76EAuKiXIsKYd9eUFz1ElRlFhQ5KaUkxRYUNeTl6jCSLChF6iXp4T3UWFAy5RlHuqTaBKVhiyvimV30R2iY2U6ItBiylCa6rhsx0Um2U6IsMWUbqV1aTbCdFL0NLJBgzUcTqhurEKzXs72mCxw8CqjmHQ9E1JMrFkXWkqPpJUXUlHuDxRaCmFFpKK21Kp3BTdw5K0FM0GWpT9IB0WaKT1IMfoUnRVM0m1G6BTbUboFnNY/QozaDzuKluJSTNJlpbwUu+adFQZZHHcVaZs5yylKPspRYRzmoZY0og2adUhs13vKc4+x4sAaY0Ci6g3RWhYHe8eim2wu95G4vYYmebI3RQdZB7q1zs92qX4cfeRuL2GJhvso5ILrOug9BGvkpDZ7D+fyVbgsUcy6ihOpLpX7Jbud5EKu/Yx98JrUE4nPmmoli3XbGd7wTt2G85EHqnuIMTA7pN3a6A7Aeou2I4a9CjeiLAwO7S7tbR2UdU34Y5PcQYMyBSRWWdaD7G5uYTd08ZBPNMMSsyynRFY27uRQ16kLPOZRYUTp1Qr1ON4HkqLGNbki395RwBd71o3DonvtI9kLLdatE7bWdwRQrLVVk6BB9G+8UMWpysMrPjMp4ibO8qVWOPrhrhwkeEYqradk0HkCmS13GLqr06R0lWmU3j8kcSvPdLpm/JGh2aJMOII1wWgOzdC7Bc3xA+CEyzVTqOn1VujZHDEqXL27B2c9bOxlRziab2EbsC0eCpO7E2kbmfuC7ym5wyCI28c1cddpVZDR543sfaZi4Od5sfFX7J2MrfnDQP6hPhuXdiQEJ9qOQB6JvVdcsSvwjmh2Lxwc2N5mD0iPNRrdmA0gBzeMkerzW5araWj1WknWCYWdSDnmT4yD8YWcpWu3/pccvJY2X2cpnFxDho2fmtR3Z6gfykeP1T2EECY5K6x2q10sXH+SMZuV8MqN2FZxHqDDWTPPVQqbGpbmtbyBWmSFC8tJQg1VIlTl7Zh1NjXnBpDSwcGtPHJvzVpmxqYAAaOq0w7gnvcFmtKBT1ZGTW2SwHBp5C6B8FSr7ObuZB4mT5BdESdAhvpXhiB9+Cmekv6jjqtdnIVbGBgWjpKF6OBkI8F1XoQGJc48Nx8lNzY/KFKjJdmm4vByLqI0Vd9mDs8OS7I1Bp5QhXzM3D5/BF15Hl+HHegtG8qbKd3KV1rqZJHqnDjnzCM1mEFjfvwTUpMTkjjjUjBQNUrtKlja4RdaOX8LPq7FafZJHgMOpTya8BkmcuKnAIjqwP5AOQW1U2K4HDEcwFXqbGqe5/qaUZe0Pj2Y1UtIxaqrrMw/l81unYtT3R+4KP4E/wB0fuVKaAwvQWaJfhoP5T4LoWbGqNxDR1VtjbQLovATu0Seq10FI5B+xxo7zTt2Cw53+i7oCqMb7D/afkq9pr1CIusI4YeRS3pAkjkRsSkNfHNSZsyjlI8QStGswziI8UzLKXCb7RzK0Wo+2xNFQ7PpNMB48GfUpeijUf6fqrTrMZgEO5YhP+H1fd8wjP2xNHXvpNjCBzy6IbnAZ3Y1gryo2+8Zc8k6mT5lG9LZHrPw0mfJc7hRaj+np5tTBm5vwHUlDbamvPq1GeEO+a87s9sYcnDxwPmrbbSIwWcnJFrTXs7o0ifzk+EfNTawe/8AfVee1tpQq4tTjiUJPuh4fp6RUA99x8PnKdtsDRdErzK09oHsHqPcDzMdCgM7X2n3x+xn0WkdGb5XBm8Vwz1V9qadcsRhih+kN3NHDBeeWbtZXIxLDxLMfIwtSw7ZqvOLh4NH0Wc1KHMioxT6O5bWbGQ8x8ERjxouYG0H+98FZo294/NPMBZrXQPRZ0geE/ecFhfiTo3dEx2m6N3RafZiRsM3+94Jd7wXN/i7h7vQ/VEG1naN8/qn9pC2GdE2pwT3wuf/ABg6DqUM7Xf+nofqq+3EWxI6O+Ei4Ln27aP5g08jHxlTdt0AYNJPMR1VL5MX5FsyNslN0XK2jtC7ddb/AKj9+CqDtK8HFzTzb8xCW/ErZkdoXDglfbquXp9pmkYtx/S4QeuIUH9pW/8Atu/cPonuoW0zqi4KJeOK4y0drCPYpeLnfID5rNf2vtIOAZGl13+Sak2G2z0Lvj7vyUg/kF5/S7bvHt02u/pJb8ZVuh20ou9tj28i1w84TeS8BgdvI4Ji4Lm6W37M4SKwHBwcD8EartqzMEmu0j9Lrx6NkqcpehYG2XIdSu1uLi0c4HmV57tntg54LLOCwb3uILzyGTeeJ5LjLU5z3FznFzjm5xLifErWMHLvgGqPZXdoLKJBtFGf62K0y0U3AObccDkRBB5ELwV4KlZrZUpmWPew7yxxbPOM1o/j2uGTdHvDnMObW9EOKfuN6Lx6j2ttjP8A1b39TWujxiVZs/bi0tm9cfzbBH7SFD+NP8Kzieqvs1F35B8E3oVLTzK8ypdva49pjCf7h8ytFn/UFsY0HTweCOt1J6E14BSXs5HvtFJpVJtpbqn9LbquhwfoakvZoh8J22lw9kkLN9KB3qfpYGQ81L0/wea9mvTrb3IFq2mBgCsS0WtzszhoFXvKoaC7kRLW8IvPtBJkp2PVEVEVlcBbOPHBmp88m1ZXiQumsDoC4+x2pk4mOa3rNa2x6rgeRBXm/KjL0dulJUb4tGKsMtKwG1yiC1FebKDNrOhFqSNqWKy1aqfpChxYcGk60KLLWst9dAfaYVKLYG2+0BAdayskWpM+qqUGFmobYVE2risd1QqBqEarVQJs1HvlV3lVPSjqm9KnerjBoVhXvQnP4qD6wQXVBqtoolhHVne8eqAa7xvnmmc/ihuctokMl6SN4jzCiXg5FBcgvadxW8UiGWjUI3qBtY3kKk8nfCrOeNQtFBMzlOjTdamaoT7UzWfArNc/io31agjN6jLz7WNEB1p4BVy5RlUoolybDmseCbvCgXkryojIN3hS7xBlQnigLIl6V5QAT3eKBErxT3lC7xUg1AEryQemDU9xAxw5SaVC4ldKALDFYYVRN4Jw9+qzlGy4yo2aFre3Jx5HEK8zaM5hc2K7lMWpy55/GUvBvHXo6hu0BoUZu0G6Hy+q5R20XAiBh1UxtF/uj6eaxfwjT7ETq/SmneoPeDvXNDaT/dHn8VFu1KmIwPy8QpXw5Lof2InQmol3hXOjaNSI84xTu2nUywHhiq+pL8FvxOgc8oT3rBftKoYxjlGPFRdaqh/Mfl8FcfiyXdEvXj4Npz0M1OfVZTrW/DH+UI13arVaD8kvWRrG0KJrjisnvHaJxaXbwq2UTvGsXgZu6CT0QKtpH5ZPMR5AlUu/Oii6pwVLTol6noK+q47+mCGXu1PVDLzomLjotEjNyJkpiUE1FHvE6JssSmlA7xOHlOhWGSQe8OiXeooLDFMhd5wTmoEBYTBKAh94E19AWWLo4JXOSp07R6pmJClRtXqmcx5pUx2i2GcApNbjEDp80Flrbdk4YwRmjG1NABmeSXJSaCCmfdTgfp8ggVrfh6niTu5Ku22PBm9PPHyQkwcoo0Wge6PJEDG+6qlO3AwC2OI+iJ3ugKVMrJFnu26KJpt0KjSDnY5D4eKm9waMcUUwtEO5ZxHRIUWbien0QzW0gHWPuVJtQ7xPVFBaGdRbx8h803dHd81I2j9KcVwjkOBMpEGcT5Dx1SZRO9P33JSFYo5BUSFPgmLB9gJxXP3KtWOyvqi8AAy8Gl7zcYHHANvH2nfpbLuCXI7RnvpjTyhQLDuaOhC7ih2MMAve/HRoYOrzf6sCxrU+y0XvpuoVnuaYJNVseF1gO5UoyYm4mAKZ9wf6kgwb2jqfqt0W+x//ABnj/wDZ4/2ojH2F0epVbPu1mkDwdTRjIWUTn7o08ynuA69V1LNgWep/5doc06VGhw/e0iOix9rbGq2ci+0XT7L2m8x/J2vA4oaa7HaMzuh+ryRGUiN58QEwCk4n7KkCRZ9x/KG6hy/aD8094jXy0UGOdAJMyPveEUDaASWuLZgnh/Kd9Jxzd5D6p6rSSDhITl7tB5pklc2c6+SibOdUc1ne6FIvPuhO2KkVTQOqY0Sj94dE4eU7ZNIqBvH7CTGYItUdSR0yKICMk7EVy1K6EcpEcEWMBTqPYIBIHLzxRqdrf7xTFrUSm0awlYJAm0TeJIBnUcOKHWouveq3DDLXktHuxhAJ55k8AFq2LZzji4GN4GQ+pQmx4o5U0n+47oUzqThmD0K6zaENIa2QczO4bhhvWW+oZOmeG/wlPIMTGZM4ArYsrHOAc+QBmT8AFHvRORP39VI1o3dfNJsFGvIC32vG60wNN/Mqm2uZzWsysMbwkboiQUVtQnJhI1LQY6HFLL8Hjfkr2ehO8dQimyuOUdUWWb2D9uSUMnIDhACVl4lc7PfoPA/wmFgd7o6q0abNzj1PyKcUv1u8vmjIVFIWF43ef8LT2XsGtVvFjDcb7T5EAkYCXOAnhOXmEU3bn9QfkVrbD7SVKIDXFr6LS6aN2HGSB3l/Ek3i3+0jgqisnRMqirN/s32OpOBq13tfBwpNcIBGRe4EyP0tPM5hXrXY6npja7WNNCz0X+j0mua29VLYxbkzA+F3dK53bPbwGzFlAGnWvAOgYMAdN5huw4ECMYInfmG2V2ms9xptNW2PeR6wbUaxk/puAOyjMrSMLukS5xVWy/Q7VWkWllK1Mp02VL0CILQAYdevuGYiDnKyO1Wy67rQ6pTpOc1wicBMAQcTwW5V7Y7NuO/7WpUIBI757n4jeHPLy08RisOhtF1Wiyg6m2mPXNJrHveWlxdULKgfJvEOJDp3Qc1cY06fFkOSa4dmJ+CWomO4eScpgHwBOKNT7M27dZqk8h9VZ2LYbRVqmlSrmkbjnw51QNcGCXNDWtcXG7JiMYK0bM22MbfZarLUaXXLprCmLwAN0CpcuOggwI4gq5aai6bIjO1dMhZdh7QEf9tU6D6rorDYbddLKlke6m7BzHAFp8JwPEYrCtG1NpUWl7mm4BJcx7KrWjUuY4gDiqjO3dp949Ulp300XnFd2XNr9iqzXB1OlXNN0+rdLn0nRIDmgQ9uEXgQRv485W2ZXZ7THt/qY5uXMBdRY+21pcJvsHB7w0+AKus/6hOcLr2mQcHNMOaRva4ZjqDxWb0XfBa1InAvlubs9MZ6BNTeIAknCMATiNy7zamyn22zvtFwMe1pex8hrqwbN5tzN4gEg7jhJC4hjBPrGN2eXFYyVcMpO+gbnDKTyhBLwIzV1zWRAfBxwIIHj/Kpvs7gZBkHI4/RIGRdVicY4Z8FE1RjiemfirAp4ASDv/jEYJn0JGU44QQVQuSvG+dyRA94fLqptEmAD4kNnrmiNpuJAukndBkeE5IAC7G7EOxlJ9IASSk9hvZYzEf8JnjGIBjdjhKBDtbMY+GSa6NY4YfVO6i+MGxuOWI+SF6N9z/KAJPxGAjwyRrM0fmM8p6KqxxR75Iw8h5pMcfZqWUsa+8/SWjgtOntFkXZO7GDjjmSua70wcZPSBzR7NWjPx+qXJpwa9rYC+8DMiHA58IVQWdskl90yM7wi8YByiD8lBrxAg4CYJEeI3Jqlcy0jGD4RieW7RAXSCjY5cZZVZP9Th4+yjN7P1ifbpn+4n/aqb6oOZAxOORTiucmOdxOGHPHJAi87s1VOJcz9zj8lBvZ6q0y17G+L/8ABRp217fz/HPSSiN27UHtA+KdA6LLNjPwDn0+JDiPIt+BCO3Y7xk5hEe8JPkqjO0A3j4KyzbDDmAliNSJDZNTe1px1GHRM7ZLgD6oPgPKRmjst9M5E+CkLW3c89Qnih2ZrbHAMsaYMSN3PHPksV9EtFRwMgEgjGQbvKPyg5rc2ZaCGEl+b3mM4l09ZkrD23Vkuuhxc6Q6PZIkGYzveqB4HVOCoynyilabM52USYwJDDI/qgEcls/+FLWKbXinewxaxzXOHgDj/bKztmbSDBcfRpluZcWvvu3Rea8Yb1p09r2VoJpsq0zhJp1XMmf62PJOC6FqJNteTDC0kzGqMc03XNLSCJa4EHMEgg8FZ75zCXYtc9odeBxa9jA9vIgiPEo21duCrcBqveGkEd41pe0bwKoALgdCAFVttocG3HNENaA1wEAuIgwBhEOJw14qZyt2OMaTRobS2uxwLmNcx4xBwgEY5jGMwsgbReLwBEEz7DDlkfZ0MIDbQyMWuJ3m9A8Bd+aGXM3Xuq01GpcpkwuPFFynbHFpbhEyQGhkncXXQJ8U4cO89aLpIzgwwwRnlgfiqdPDJrjKNJMSx2AiZAkTIzCltOKVjSabZvfh1igHvcd47ynoToMZjA9U1psVjax5ZVlwBui+wyQ2RgBjjhCw4/8Arf8Aub/igekM9137m/4rM0v8Nuz7frUKQax129ek3Wl10CAA5wMCb3iEOtWDhgQY8I+/kqFKq10DunPu7r0CJJgwBvJV11NuESJzBBAaecYqZIcWyvXdkSHY5aBOKgAABPVWBdyMc5McoTNst4Ai6DpezjfiVI6A0bS5s5unXcpvrPx0+B6ym9EcJMCJzkHopt4Nx3u3jigOSDqgBkwTvwk/BRqVQccxgcTjliM8EN9BsnE8MDE/RF7tobJYZ4ZckARdXBGAOGIxnzRXvaQHRGWGMmM8QqzXOxhpG6ThgeClZ6xDgJw8+SGgsssdOROUtxicYKd9Qzh44A478VVY8zeIj2gRiInL74KNSk4Eg5/XFFBYg4ctOCnODd3jjH0VZziDMYeSTTx6IoaZbqMDZ4fDhE55ylTxx6RO5U3FzsceHJS9dgxyP3uSoLLjjuLojLhjl8UqrxlOQjKMI++qqOfgDOPJRJGZRQZFhlN7pAJwMxMTPGePmrVneGkNOGEkx9fDcqQrkZHTEYZZSma8zh/zCGgTSNi7mRjMxGTTjhEwol2BwOJk+rORwxIgZz4KtZrRdbDXRqM+iu07Y05weYg8cUWUgTnMcBLTpgI55Zj6qtXgDCRu+B6Yq+4h0kOByIwmQDlLcMln2kEFoj2gAPDLlgkJ8ErOS4GXgaAzjqnFU69MUrLMAjMTpET5qYmJDhloMRkqQgdK0Q0DLP4mSfFTFYZnH67vNMxoLW4QYk5Ygk4nHUdOqg1kmA2Yk6Axjjw3nkixck4amNNpkcviUCCNxwzTB6oRN9iadyFUsU7zhlicOSKKilfMSmIpHZ44qxRsoDHCBJPjBRRUUKjzgfBKQ0UzYIS9DI3laV4JAhMVGeaL8IceqGbJJknFagdjHiEroQgoo0aTm5R0VpgOvmi3AkaYQFEHNO4lGdTbcEGXTjIUGiFGl7QbulAxPsxG4ZclXpugkYg84V211JeYyy6Ko9gJnfqkIu2io5obDjMetv8Aiq7q7uHRCdXjPPJHqvEgDRJUFsgbU7fdPghPeJDrsEaHDpARHEKF0J0gtjUXBxghxnARuCjWPrGROOZzI3JU6l1xjPIHSVK6NUkgsDSYXtOExicMhrPii2e60EROZ3YZRux/lOkp8FrwTBbcBM3wcQcPV3cZ+qG9xcYA3ZZ5DcEkkIbAvYBnlqN/BDc3HgkkqIY7aZTuwGHikkgZBjyiMfvTpIYkWmvABmSSPvLJKu+WjWZ8DkZ6JJKSn0NZavrQcc8DuKsVmkDkCcs/qcQkkhguioxsCcZuyBwmDnuT0GExy37+vJOkmSErvMwJicdDGOP86qTaYLS4iBuxgHQRBnLyTpIGyDaIdkABhBJxPUgeSiKD4HqmNQJHiRgkkhhQJ7COOuBwzznkUcvBaB98Ukk30IAXpxUTpKkIZ1Uo2IaHE55amMykkl5AiKil3nFJJMQ4coFx5pJIGTDpCZzkkkAArMBicOKnTaDhMYb0kkgGLSoNJyIxSSTECccVeFpaMLs6nikkpYH/2Q\u003d\u003d",
+    "rating": 0.0
+  },
+  {
+    "id": 5,
+    "name": "RENT AND RUN",
+    "offeredVehicles": [
+      7
+    ],
+    "workingTime": "13:00 - 22:00",
+    "workingStatus": "CLOSED",
+    "location": {
+      "id": 4,
+      "longitude": 20.461256257681946,
+      "latitude": 44.8106532060244,
+      "address": "Kraljice Natalije 31, Belgrade, 11000"
+    },
+    "locationId": 4,
+    "logoUrl": "https://images.unsplash.com/photo-1504657958592-e16ea086cf0f?ixlib\u003drb-4.0.3\u0026ixid\u003dM3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyJTIwbmF0dXJlfGVufDB8fDB8fHww\u0026w\u003d1000\u0026q\u003d80",
+    "rating": 0.0
+  }
+]

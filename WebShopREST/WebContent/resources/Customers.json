@@ -1,0 +1,68 @@
+[
+  {
+    "id": 0,
+    "username": "leopoldina021",
+    "password": "nesto",
+    "firstName": "Leo",
+    "lastName": "Djanic",
+    "gender": "female",
+    "dateOfBirth": "2001-07-17",
+    "role": "CUSTOMER",
+    "isBlocked": false,
+    "suspicious": false,
+    "allOrders": [
+      1,
+      2,
+      3
+    ],
+    "shoppingCart": {
+      "id": 0,
+      "vehicles": [],
+      "price": 0,
+      "pickUpDate": "2023-10-14",
+      "returnDate": "2023-10-16"
+    },
+    "score": 7448,
+    "customerType": {
+      "id": 1,
+      "type": "BRONZE",
+      "discount": 0,
+      "requiredScore": 0
+    }
+  },
+  {
+    "id": 1,
+    "username": "jovan021",
+    "password": "nesto",
+    "firstName": "Jovan",
+    "lastName": "Jokic",
+    "gender": "male",
+    "dateOfBirth": "2001-06-08",
+    "role": "CUSTOMER",
+    "isBlocked": false,
+    "suspicious": true,
+    "allOrders": [
+      0,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "shoppingCart": {
+      "id": 0,
+      "vehicles": [],
+      "price": 0,
+      "pickUpDate": "2023-09-10",
+      "returnDate": "2023-09-20"
+    },
+    "score": -465367,
+    "customerType": {
+      "id": 1,
+      "type": "BRONZE",
+      "discount": 0,
+      "requiredScore": 0
+    }
+  }
+]

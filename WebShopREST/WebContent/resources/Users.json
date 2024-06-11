@@ -1,0 +1,123 @@
+[
+  {
+    "id": 0,
+    "username": "leopoldina021",
+    "password": "nesto",
+    "firstName": "Leo",
+    "lastName": "Djanic",
+    "gender": "female",
+    "dateOfBirth": "2001-07-17",
+    "role": "CUSTOMER",
+    "isBlocked": false
+  },
+  {
+    "id": 1,
+    "username": "joja021",
+    "password": "nesto",
+    "firstName": "Jovan",
+    "lastName": "Jokic",
+    "gender": "male",
+    "dateOfBirth": "2001-06-08",
+    "role": "CUSTOMER",
+    "isBlocked": false
+  },
+  {
+    "id": 2,
+    "username": "admin1",
+    "password": "nesto",
+    "firstName": "Milan",
+    "lastName": "Vidov",
+    "gender": "male",
+    "dateOfBirth": "2001-06-08",
+    "role": "ADMINISTRATOR",
+    "isBlocked": false
+  },
+  {
+    "id": 3,
+    "username": "admin2",
+    "password": "nesto",
+    "firstName": "Kristina",
+    "lastName": "Petrovic",
+    "gender": "female",
+    "dateOfBirth": "2001-06-08",
+    "role": "ADMINISTRATOR",
+    "isBlocked": false
+  },
+  {
+    "id": 4,
+    "username": "djukara01",
+    "password": "nesto",
+    "firstName": "Aleksa",
+    "lastName": "Djukic",
+    "gender": "male",
+    "dateOfBirth": "2001-05-07",
+    "role": "MANAGER",
+    "isBlocked": false
+  },
+  {
+    "id": 5,
+    "username": "luka01",
+    "password": "nesto",
+    "firstName": "Luka",
+    "lastName": "Savkov",
+    "gender": "male",
+    "dateOfBirth": "2001-01-06",
+    "role": "MANAGER",
+    "isBlocked": false
+  },
+  {
+    "id": 6,
+    "username": "banja01",
+    "password": "nesto",
+    "firstName": "Strahinja",
+    "lastName": "Banjanac",
+    "gender": "male",
+    "dateOfBirth": "2001-12-29",
+    "role": "MANAGER",
+    "isBlocked": false
+  },
+  {
+    "id": 7,
+    "username": "marko01",
+    "password": "nesto",
+    "firstName": "Marko",
+    "lastName": "Radetic",
+    "gender": "male",
+    "dateOfBirth": "2001-02-02",
+    "role": "MANAGER",
+    "isBlocked": false
+  },
+  {
+    "id": 8,
+    "username": "nevena01",
+    "password": "nesto",
+    "firstName": "Nevena",
+    "lastName": "Gligorov",
+    "gender": "female",
+    "dateOfBirth": "2001-04-06",
+    "role": "MANAGER",
+    "isBlocked": false
+  },
+  {
+    "id": 9,
+    "username": "jovan01",
+    "password": "nesto",
+    "firstName": "Jovan",
+    "lastName": "Katanic",
+    "gender": "male",
+    "dateOfBirth": "2001-01-01",
+    "role": "MANAGER",
+    "isBlocked": false
+  },
+  {
+    "id": 10,
+    "username": "nikolina01",
+    "password": "nesto",
+    "firstName": "Nikolina",
+    "lastName": "Milosevic",
+    "gender": "female",
+    "dateOfBirth": "2001-01-01",
+    "role": "MANAGER",
+    "isBlocked": true
+  }
+]
